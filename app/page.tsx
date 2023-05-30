@@ -1,6 +1,7 @@
 import Product from "@/components/Product";
 
 export default async function Home() {
+  
   const res = await fetch("https://fakestoreapi.com/products")
   const products: Product[] = await res.json();
 

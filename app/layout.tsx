@@ -2,7 +2,7 @@ import './globals.css'
 import { Montserrat } from 'next/font/google'
 import Header from '@/components/Header'
 
-const inter = Montserrat({ subsets: ['latin'] })
+const inter = Montserrat({ subsets: ['latin'], display: "swap", })
 
 export const metadata = {
   title: 'Create Next App',
